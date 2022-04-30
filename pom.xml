@@ -17,7 +17,7 @@
         <serverPort>4448</serverPort>
         <suiteXmlFile>src\test\testng.xml</suiteXmlFile>
 
-        <someModule.includes>FirstTests.SecondTest</someModule.includes>
+        <someModule.includes>firstTests.SecondTest</someModule.includes>
 
         <stend.key>stend1</stend.key>
 
@@ -53,7 +53,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.1.2</version>
+            <version>3.141.59</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -94,7 +94,6 @@
 
                     <includes>
                         <include>${someModule.includes}
-
                         </include>
                     </includes>
 
